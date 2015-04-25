@@ -76,13 +76,16 @@ combinedMeanStdData <- rbind(LoadMeanStdData("train"), LoadMeanStdData("test"))
 result <- as.data.frame(matrix(nrow = 0, ncol = dim(combinedMeanStdData)[2],
                dimnames = list(NULL, colnames(combinedMeanStdData))))
 subjects <- sort(unique(combinedMeanStdData$subject))
-for (subject in subjects)
+for (s in subjects)
 {
-    for (activity in activity_labels$label)
+    for (a in activity_labels$label)
     {
         # Calculate mean per subject per activity as single row, then bind it
         # into result
-        result <- rbind(result, cbind(subject, activity, as.data.frame(lapply(filter(combinedMeanStdData, subject == subject, activity == activity)[3:68], mean))))
+        row <- cbind(s, a, as.data.frame(lapply(filter(combinedMeanStdData, subject == s, activity == a)[3:68], mean)))
+        colnames(row)[1] <- "subject"
+        colnames(row)[2] <- "activity"
+        result <- rbind(result, row)
     }
 }
 
