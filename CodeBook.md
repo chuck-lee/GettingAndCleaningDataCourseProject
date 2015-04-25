@@ -207,5 +207,5 @@
 * fBodyGyroJerkMagMean  
   Mean body gyro jerk magnitude in frequency domain.
 
-* fBodyGyroJerkMagStd"  
+* fBodyGyroJerkMagStd  
   Standard deviation of body gyro jerk magnitude in frequency domain.
