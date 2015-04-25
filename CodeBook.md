@@ -1,11 +1,9 @@
 ### Code Book
 
-* subject
-
+* subject  
   Test subject nnmber, from 1 to 30
 
-* activity
-
+* activity  
   Activity subject is performing, including
     * "WALKING",
     * "WALKING_UPSTAIRS"
@@ -14,266 +12,200 @@
     * "STANDING"
     * "LAYING"
 
-* tBodyAccMeanX
-
+* tBodyAccMeanX  
   Mean body acceleration in X-axis in time domain.
 
-* tBodyAccMeanY
-
+* tBodyAccMeanY  
   Mean body acceleration in Y-axis in time domain.
 
-* tBodyAccMeanZ
-
+* tBodyAccMeanZ  
   Mean body acceleration in Z-axis in time domain.
 
-* tBodyAccStdX
-
+* tBodyAccStdX  
   Standard deviation of body acceleration in X-axis in time domain.
 
-* tBodyAccStdY
-
+* tBodyAccStdY  
   Standard deviation of body acceleration in Y-axis in time domain.
 
-* tBodyAccStdZ
-
+* tBodyAccStdZ  
   Standard deviation of body acceleration in Z-axis in time domain.
 
-* tGravityAccMeanX
-
+* tGravityAccMeanX  
   Mean gravity acceleration in X-axis in time domain.
 
-* tGravityAccMeanY
-
+* tGravityAccMeanY  
   Mean gravity acceleration in Y-axis in time domain.
 
-* tGravityAccMeanZ
-
+* tGravityAccMeanZ  
   Mean gravity acceleration in Z-axis in time domain.
 
-* tGravityAccStdX
-
+* tGravityAccStdX  
   Standard deviation of gravity acceleration in X-axis in time domain.
 
-* tGravityAccStdY
-
+* tGravityAccStdY  
   Standard deviation of gravity acceleration in Y-axis in time domain.
 
-* tGravityAccStdZ
-
+* tGravityAccStdZ  
   Standard deviation of gravity acceleration in Z-axis in time domain.
 
-* tBodyAccJerkMeanX
-
+* tBodyAccJerkMeanX  
   Mean body acceleration jerk in X-axis in time domain.
 
-* tBodyAccJerkMeanY
-
+* tBodyAccJerkMeanY  
   Mean body acceleration jerk in Y-axis in time domain.
 
-* tBodyAccJerkMeanZ
-
+* tBodyAccJerkMeanZ  
   Mean body acceleration jerk in Z-axis in time domain.
 
-* tBodyAccJerkStdX
-
+* tBodyAccJerkStdX  
   Standard deviation of body acceleration jerk in X-axis in time domain.
 
-* tBodyAccJerkStdY
-
+* tBodyAccJerkStdY  
   Standard deviation of body acceleration jerk in Y-axis in time domain.
 
-* tBodyAccJerkStdZ
-
+* tBodyAccJerkStdZ  
   Standard deviation of body acceleration jerk in Z-axis in time domain.
 
-* tBodyGyroMeanX
-
+* tBodyGyroMeanX  
   Mean body gyro in X-axis in time domain.
 
-* tBodyGyroMeanY
-
+* tBodyGyroMeanY  
   Mean body gyro in Y-axis in time domain.
 
-* tBodyGyroMeanZ
-
+* tBodyGyroMeanZ  
   Mean body gyro in Z-axis in time domain.
 
-* tBodyGyroStdX
-
+* tBodyGyroStdX  
   Standard deviation of body gyro in X-axis in time domain.
 
-* tBodyGyroStdY
-
+* tBodyGyroStdY  
   Standard deviation of body gyro in Y-axis in time domain.
 
-* tBodyGyroStdZ
-
+* tBodyGyroStdZ  
   Standard deviation of body gyro in Z-axis in time domain.
 
-* tBodyGyroJerkMeanX
-
+* tBodyGyroJerkMeanX  
   Mean body gryo jerk in X-axis in time domain.
 
-* tBodyGyroJerkMeanY
-
+* tBodyGyroJerkMeanY  
   Mean body gryo jerk in Y-axis in time domain.
 
-* tBodyGyroJerkMeanZ
-
+* tBodyGyroJerkMeanZ  
   Mean body gryo jerk in Z-axis in time domain.
 
-* tBodyGyroJerkStdX
-
+* tBodyGyroJerkStdX  
   Standard deviation of body gyro jerk in X-axis in time domain.
 
-* tBodyGyroJerkStdY
-
+* tBodyGyroJerkStdY  
   Standard deviation of body gyro jerk in X-axis in time domain.
 
-* tBodyGyroJerkStdZ
-
+* tBodyGyroJerkStdZ  
   Standard deviation of body gyro jerk in X-axis in time domain.
 
-* tBodyAccMagMean
-
+* tBodyAccMagMean  
   Mean body acceleration magnitude in time domain.
 
-* tBodyAccMagStd
-
+* tBodyAccMagStd  
   Standard deviation of body acceleration magnitude in time domain.
 
-* tGravityAccMagMean
-
+* tGravityAccMagMean  
   Mean gravity acceleration magnitude in time domain.
 
-* tGravityAccMagStd
-
+* tGravityAccMagStd  
   Standard deviation of gravity acceleration magnitude in time domain.
 
-* tBodyAccJerkMagMean
-
+* tBodyAccJerkMagMean  
   Mean body acceleration jerk magnitude in time domain.
 
-* tBodyAccJerkMagStd
-
+* tBodyAccJerkMagStd  
   Standard deviation of body acceleration jerk magnitude in time domain.
 
-* tBodyGyroMagMean
-
+* tBodyGyroMagMean  
   Mean body gryo magnitude in time domain.
 
-* tBodyGyroMagStd
-
+* tBodyGyroMagStd  
   Standard deviation of body gryo magnitude in time domain.
 
-* tBodyGyroJerkMagMean
-
+* tBodyGyroJerkMagMean  
   Mean body gryo jerk magnitude in time domain.
 
-* tBodyGyroJerkMagStd
-
+* tBodyGyroJerkMagStd  
   Standard deviation of body gryo jerk magnitude in time domain.
 
-* fBodyAccMeanX
-
+* fBodyAccMeanX  
   Mean body acceleration in X-axis in frequency domain.
 
-* fBodyAccMeanY
-
+* fBodyAccMeanY  
   Mean body acceleration in Y-axis in frequency domain.
 
-* fBodyAccMeanZ
-
+* fBodyAccMeanZ  
   Mean body acceleration in Z-axis in frequency domain.
 
-* fBodyAccStdX
-
+* fBodyAccStdX  
   Standard deviation of body acceleration in X-axis in frequency domain.
 
-* fBodyAccStdY
-
+* fBodyAccStdY  
   Standard deviation of body acceleration in Y-axis in frequency domain.
 
-* fBodyAccStdZ
-
+* fBodyAccStdZ  
   Standard deviation of body acceleration in Z-axis in frequency domain.
 
-* fBodyAccJerkMeanX
-
+* fBodyAccJerkMeanX  
   Mean body acceleration jerk in X-axis in frequency domain.
 
-* fBodyAccJerkMeanY
-
+* fBodyAccJerkMeanY  
   Mean body acceleration jerk in Y-axis in frequency domain.
 
-* fBodyAccJerkMeanZ
-
+* fBodyAccJerkMeanZ  
   Mean body acceleration jerk in Z-axis in frequency domain.
 
-* fBodyAccJerkStdX
-
+* fBodyAccJerkStdX  
   Standard deviation of body acceleration jerk in X-axis in frequency domain.
 
-* fBodyAccJerkStdY
-
+* fBodyAccJerkStdY  
   Standard deviation of body acceleration jerk in Y-axis in frequency domain.
 
-* fBodyAccJerkStdZ
-
+* fBodyAccJerkStdZ  
   Standard deviation of body acceleration jerk in Z-axis in frequency domain.
 
-* fBodyGyroMeanX
-
+* fBodyGyroMeanX  
   Mean body gyro in X-axis in frequency domain.
 
-* fBodyGyroMeanY
-
+* fBodyGyroMeanY  
   Mean body gyro in Y-axis in frequency domain.
 
-* fBodyGyroMeanZ
-
+* fBodyGyroMeanZ  
   Mean body gyro in Z-axis in frequency domain.
 
-* fBodyGyroStdX
-
+* fBodyGyroStdX  
   Standard deviation of body gyro in X-axis in frequency domain.
 
-* fBodyGyroStdY
-
+* fBodyGyroStdY  
   Standard deviation of body gyro in Y-axis in frequency domain.
 
-* fBodyGyroStdZ
-
+* fBodyGyroStdZ  
   Standard deviation of body gyro in Z-axis in frequency domain.
 
-* fBodyAccMagMean
-
+* fBodyAccMagMean  
   Mean body acceleration magnitude in frequency domain.
 
-* fBodyAccMagStd
-
+* fBodyAccMagStd  
   Standard deviation of body acceleration magnitude in frequency domain.
 
-* fBodyAccJerkMagMean
-
+* fBodyAccJerkMagMean  
   Mean body acceleration jerk magnitude in frequency domain.
 
-* fBodyAccJerkMagStd
-
+* fBodyAccJerkMagStd  
   Standard deviation of body acceleration jerk magnitude in frequency domain.
 
-* fBodyGyroMagMean
-
+* fBodyGyroMagMean  
   Mean body gyro magnitude in frequency domain.
 
-* fBodyGyroMagStd
-
+* fBodyGyroMagStd  
   Standard deviation of body gyro magnitude in frequency domain.
 
-* fBodyGyroJerkMagMean
-
+* fBodyGyroJerkMagMean  
   Mean body gyro jerk magnitude in frequency domain.
 
-* fBodyGyroJerkMagStd"
-
+* fBodyGyroJerkMagStd"  
   Standard deviation of body gyro jerk magnitude in frequency domain.
